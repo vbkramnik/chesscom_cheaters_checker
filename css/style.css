@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'ChessGlyph';
+    src: url('/fonts/chessglyph.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ChessSans';
+    src: url('/fonts/chess_sans_700.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ChessSans';
+    src: url('/fonts/chess_sans_800.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+html, main, body {
+    background-color: #302E2B !important;
+    height: 100%;
+    font-family: 'ChessSans', sans-serif;
+}
+
+header, .card, .accordion-body, footer {
+    background-color: #262522;
+}
+
+button#check {
+    background-color: #80b54c !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+
+input, .accordion-button {
+    background-color: #3c3b39 !important;
+    color: #ffffff !important;
+}
+
+input::placeholder {
+    color: #fff !important;
+}
+
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    flex: 1;
+}
+
+.footer {
+    background-color: #262522 !important;
+    padding: 1rem;
+    text-align: center;
+    color: #ffffff !important;
+}
+
+.bi-telegram, .bi-twitter-x, .bi-youtube {
+    font-size: 1.5em;
+}
+
+.bi-telegram:hover, .bi-twitter-x:hover, .bi-youtube:hover {
+    color: #b6d4fe !important;
+}
+
