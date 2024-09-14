@@ -21,6 +21,7 @@ const knownPlayers = {
     'matthewg-p4p': 100,
     'rud_makarian': 100,
     'tigrvshlyape': 100,
+    'hikaru': 146,
 }
 
 const i18n = {
@@ -54,7 +55,9 @@ const i18n = {
             'rud_makarian': 'Это Рудик Макарон, про него здравомыслящим людям давно все понятно, вопросов к нему у меня нет',
             'matthewg-p4p': 'О, да это же тот самый мурманский самородок, который в онлайне уверенно идет к турниру претендентов, а на опене недавно набрал перформанс 2000 в партиях с очень сильными второразрядниками :))',
             'zhigalko_sergei': 'Известный подглядывающий, очень подозрительный игрок, не стесняется даже своего друга и модератора Серегу Ворон Чесса и Михаила из города Химки, кстати, самого Сергея в Химках недавно видел: деревянными членами торгует. В вашу честь!',
-            'shimastream': 'Печальное на самом деле зрелище, тоска стримера, даже комментировать нет смысла, этот точно играет сам, хотя проценты и вызывают некоторые опасения'
+            'shimastream': 'Печальное на самом деле зрелище, тоска стримера, даже комментировать нет смысла, этот точно играет сам, хотя проценты и вызывают некоторые опасения',
+            'magnuscarlsen': 'Бумажный чемпион, распространял про меня ложные слухи, мол, я где-то в партиях с ним всегда стоял хуже. Любой здравомыслящий человек может посмотреть наши партии и своими глазами убедиться, что везде у меня было выиграно, а Левитов еще и подхватил эту дезинформацию, подробно писал об этом у себя в Telegram.',
+            'hikaru': 'Этот гадкий мальчишка в своих лживых видео позволил себе лишнего, напрямую оскорбил меня, поэтому если хотите напишите ему, что я готов сыграть с ним матч, пусть прилетает в Геленджик, я ему там перхоти с волос в мисо суп натрясу и скажу, что сыр тофу, приятного аппетита)) Ну и по носу, может, разок щелкну для острастки,подумает в следующий раз,прежде чем про уважаемого человека глупости говорить.',
         }
     },
     'en': {
@@ -88,6 +91,8 @@ const i18n = {
             'matthewg-p4p': 'Oh, this is the Murmansk prodigy who’s confidently heading for the Candidates Tournament online, and recently scored a 2000 performance in an open tournament against some very strong second-category players :))',
             'zhigalko_sergei': 'A well-known peeker, very suspicious player, not even embarrassed in front of his friend and moderator Sergey Voron Chess and Mikhail from Khimki. By the way, I saw him in Khimki recently — selling wooden dicks. Just for you!',
             'shimastream': 'A truly sad sight, the streamer’s despair, there’s no point in even commenting. This one is definitely playing on his own, although the percentages do raise some concerns.',
+            'magnuscarlsen': 'A paper champion who spread false rumors about me, saying that in our games I was always in a worse position. Any reasonable person can review our games and see with their own eyes that I was winning every time. And Levitsky picked up this disinformation, writing about it in detail on my Telegram.',
+            'hikaru': 'This nasty boy said too much in his deceitful videos, directly insulting me. So if you want, tell him I’m ready to play a match with him. Let him fly to Gelendzhik, where I’ll shake some dandruff from his hair into his miso soup and tell him it’s tofu cheese, bon appétit! :) Maybe I’ll even give him a flick on the nose to scare him a bit, so he thinks twice before talking nonsense about a respected person again.',
         }
     }
 }
