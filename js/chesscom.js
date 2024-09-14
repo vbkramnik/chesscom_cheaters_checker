@@ -1,3 +1,5 @@
+window.dataLayer = window.dataLayer || [];
+
 let averageCharCodesSum = 0;
 const minPercent = 1;
 const maxPercent = 100;
@@ -170,6 +172,11 @@ fetchPlayerTitles().then(players => {
 
             resultElement.addClass(backgroundClass);
             resultElement.text(summaryText);
+
+            window.dataLayer.push({
+                'event': 'cheater_check',
+                'username': username,
+            });
         }
     });
 
